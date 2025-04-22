@@ -29,7 +29,7 @@ export const Navbar = () => {
           </nav>
           
           <div>
-            <Button className="bg-primary hover:bg-primary/90">
+            <Button className="bg-secondary hover:bg-secondary/90 text-white">
               Взять питомца
             </Button>
           </div>

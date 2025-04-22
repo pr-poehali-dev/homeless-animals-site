@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 
 export const HeroSection = () => {
   return (
-    <section className="relative bg-gray-900 text-white">
+    <section className="relative bg-gradient-to-r from-orange-dark to-green-dark text-white">
       <div 
-        className="absolute inset-0 bg-cover bg-center opacity-50"
+        className="absolute inset-0 bg-cover bg-center opacity-30"
         style={{ backgroundImage: "url('/placeholder.svg')" }}
       ></div>
       <div className="container mx-auto px-4 py-24 relative z-10">
@@ -18,7 +18,7 @@ export const HeroSection = () => {
             Все наши питомцы ищут заботливых хозяев и готовы дарить любовь и преданность.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button size="lg" className="bg-primary hover:bg-primary/90">
+            <Button size="lg" className="bg-primary hover:bg-orange-dark text-white">
               Смотреть питомцев
             </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
